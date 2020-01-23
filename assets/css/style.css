@@ -3,6 +3,9 @@ h1, h2, h3, h4, h5, h6, a{
     font-family: 'Anton', sans-serif;
     color: #FFC600;
 }
+h2{
+    font-size: 45px;
+}
 
 p,{
     font-family: 'Quicksand', sans-serif;
@@ -90,7 +93,26 @@ footer i.fab{
     display: none;
 }
 
+@media (max-width: 576px) { 
+    .iconos-desaparecer{
+        display: none;
+    }
+ }
 
+@media (max-width: 768px) {
+    .iconos-desaparecer{
+        display: none;
+    }
+}
 
+@media (max-width: 992px) {
+    #carouselExampleControls{
+        display: none;
+    }
+ }
 
-
+@media (max-width: 1200px) {
+    #carouselExampleControls{
+        display: none;
+    }
+}
