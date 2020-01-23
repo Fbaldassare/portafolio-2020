@@ -1,6 +1,7 @@
 /* Generales */
 h1, h2, h3, h4, h5, h6, a{
     font-family: 'Anton', sans-serif;
+    color: #FFC600;
 }
 
 p{
@@ -20,9 +21,8 @@ header{
     background-image: url('../img/img-header.jpg');
     background-position: center top;
     background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
-    color: #fff;
+
+    color: #FFC600;
 }
 
 header h1{
@@ -32,12 +32,12 @@ header h1{
 
 header p{
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.7);
+    color: FFC600;
 }
 
 header ul{
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.6);
+    color: #FFC600);
     text-align: right;
     list-style: none;
 }
@@ -59,8 +59,6 @@ header ul{
     background-position: center;
     background-repeat: none;
     background-size: cover;
-    filter: grayscale();
-    -webkit-filter: grayscale();
 }
 
 /* form */
@@ -75,7 +73,7 @@ footer{
 }
 
 footer i.fab{
-    font-size: 3rem;
+    font-size: 1.4rem;
     color:#fff
 }
 
