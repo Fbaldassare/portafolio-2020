@@ -245,7 +245,7 @@ footer i.fab{
 @media (min-width: 768px) {
     header{
         width: 100%;
-        height: 100vh;
+        height: auto;
         background-image: url('../img/img-header.jpg');
         background-position: center top;
         color: #FFC600;
