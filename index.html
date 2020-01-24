@@ -8,25 +8,11 @@
 
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Anton|Montaga|Quicksand:400,700&display=swap" rel="stylesheet">
-    
-    <!-- jquery
-    <script src="assets/js/jquery-3.4.1.min.js"></script> -->
 
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/989db3c333.js" crossorigin="anonymous"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets\css\style.css">
@@ -38,7 +24,7 @@
     <title>Portafolio Baldassare</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarNav">
     <!-- Nav -->
     <div class="container-fluid">
         <div class="row">
@@ -65,7 +51,7 @@
                                 <a class="nav-link" href="#section__portafolio">Portafolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#section__formulario">Hablemos</a>
+                                <a class="nav-link" href="#section__formulario">Escríbeme</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#section__visitame">Visítame</a>
@@ -90,9 +76,10 @@
                         <br>Pontificia Universidad Católica de Valparaíso.
                     </p>
 
-                    
+
                     <p>
-                        Como ya saben mi nombre es Franco y me considero una persona sociable, autónomo y responsable. En
+                        Como ya saben mi nombre es Franco y me considero una persona sociable, autónomo y responsable.
+                        En
                         el desarrollo de
                         proyectos tengo un desplante que beneficia el trabajo en equipos
                         colaborativos, en los cuales privilegio el buen ambiente laboral,
@@ -114,7 +101,7 @@
                 </div>
                 <div
                     class="col-12 col-sm-12 col-md-6 offset-md-6 col-lg-6 offset-lg-6 col-xl-4 offset-xl-8 align-self-end">
- 
+
                 </div>
             </div>
         </div>
@@ -123,7 +110,7 @@
 
     <!-- section quién soy -->
     <main id="section__experiencia">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row p-5">
                 <div class="col-12 col-sm-12 col-xl-6 offset-xl-3 text-center">
                     <h2>Experiencia</h2>
@@ -159,7 +146,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 align-self-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                     <h3>Experiencias Laborales</h3>
                     <table class="table">
                         <tbody>
@@ -181,7 +168,7 @@
                     </table>
 
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 align-self-end">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                     <h3>Metodologías que manejo</h3>
                     <table class="table" id="metodologias">
                         <tbody>
@@ -213,7 +200,7 @@
 
     <!-- section herramientas -->
     <section id="section__herramientas">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row p-5">
                 <div class="col-12">
                     <h2 class="text-center">
@@ -225,35 +212,44 @@
             <div class="row text-center pb-5 iconos-desaparecer">
                 <div class="col-4 col-sm-4 col-lg-2 col-xl-2">
                     <img src="assets/img/logos-programas/ilustrador.png" class="logos-programas"
-                        alt="manejo de Adobe Illustrator">
+                        alt="manejo de Adobe Illustrator" data-toggle="tooltip"
+                        data-placement="top" title="Adobe Illustrator">
                 </div>
                 <div class="col-4 col-sm-4 col-lg-2 col-xl-2">
                     <img src="assets/img/logos-programas/indesign.png" class="logos-programas"
-                        alt="manejo de Adobe Indesign">
+                        alt="manejo de Adobe Indesign" data-toggle="tooltip"
+                        data-placement="bottom" title="Adobe Indesign">
                 </div>
                 <div class="col-4 col-sm-4 col-lg-2 col-xl-2">
                     <img src="assets/img/logos-programas/photoshop.png" class="logos-programas"
-                        alt="manejo de Adobe Photoshop">
+                        alt="manejo de Adobe Photoshop" data-toggle="tooltip"
+                        data-placement="top" title="Adobe Photoshop">
                 </div>
                 <div class="col-4 col-sm-4 col-lg-2 col-xl-2">
-                    <img src="assets/img/logos-programas/adobe-xd.svg" class="logos-programas" alt="manejo de Adobe XD">
+                    <img src="assets/img/logos-programas/adobe-xd.svg" class="logos-programas" alt="manejo de Adobe XD" data-toggle="tooltip"
+                    data-placement="bottom" title="Adobe XD">
                 </div>
                 <div class="col-4 col-sm-4 col-lg-2 col-xl-2">
-                    <img src="assets/img/logos-programas/html5.svg" class="logos-programas" alt="manejo de Adobe HTML">
+                    <img src="assets/img/logos-programas/html5.svg" class="logos-programas" alt="manejo de HTML5" data-toggle="tooltip"
+                    data-placement="top" title="HTML5">
                 </div>
                 <div class="col-4 col-sm-4 col-lg-2 col-xl-2">
-                    <img src="assets/img/logos-programas/css.svg" class="logos-programas" alt="manejo de Adobe CSS">
+                    <img src="assets/img/logos-programas/css.svg" class="logos-programas" alt="manejo de CSS3" data-toggle="tooltip"
+                    data-placement="bottom" title="CSS3">
                 </div>
                 <div class="d-flex justify-content-around w-100">
                     <div class="col-4 col-sm-4 col-lg-2 col-xl-2">
-                        <img src="assets/img/logos-programas/wordpress.svg" class="logos-programas"
-                            alt="manejo de Wordpress">
+                        <img src="assets/img/logos-programas/wordpress.svg" class="logos-programas rounded-circle"
+                            alt="manejo de Wordpress" data-toggle="tooltip"
+                            data-placement="left" title="Wordrpress">
                     </div>
                     <div class="col-4 col-sm-4 col-lg-2 col-xl-2">
-                        <img src="assets/img/logos-programas/sass.svg" class="logos-programas" alt="manejo de Sass">
+                        <img src="assets/img/logos-programas/sass.svg" class="logos-programas rounded-circle" alt="manejo de Sass" data-toggle="tooltip"
+                        data-placement="bottom" title="Sass">
                     </div>
                     <div class="col-4 col-sm-4 col-lg-2 col-xl-2">
-                        <img src="assets/img/logos-programas/git.svg" class="logos-programas" alt="manejo de Git">
+                        <img src="assets/img/logos-programas/git.svg" class="logos-programas rounded-circle" alt="manejo de Git" data-toggle="tooltip"
+                        data-placement="right" title="GIT">
                     </div>
                 </div>
 
@@ -265,12 +261,11 @@
 
     <!-- portafolio -->
     <section id="section__portafolio">
-        <div class="container p-5">
+        <div class="container ">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
                     <h2 class="text-center p-5">Portafolio</h2>
                 </div>
-
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-3">
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -318,59 +313,212 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid pb-5">
+        <!-- fin carrousel -->
+        <!-- container de cards -->
+        <div class="container pb-5">
+            <!-- row -->
             <div class="row">
-                <div class="col">
-                    <div class="card-deck">
-                        <div class="card">
-                          <img src="assets/img/webs/web-vitabella.png" class="card-img-top" alt="Centro estético Vitabella">
-                          <div class="card-body">
-                            <h5 class="card-title">Vitabella</h5>
-                            <p class="card-text">Centro estético en Copiapó</p>
-                          </div>
+                <!-- col -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <!-- link-card -->
+                    <a href="https://vitabella.cl/" target="_blank">
+                        <div class="card-deck h-100">
+                            <div class="card">
+                                <img src="assets/img/webs/web-vitabella.png" class="card-img-top"
+                                    alt="Centro estético Vitabella">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vitabella</h5>
+                                    <p class="card-text">Centro estético en Copiapó.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card">
-                          <img src="assets/img/webs/web-depilacion.png" class="card-img-top" alt="Landing promoción Vitabella">
-                          <div class="card-body">
-                            <h5 class="card-title">Depilación Soprano Ice</h5>
-                            <p class="card-text">Landing page para campaña, Soprano Ice.</p>
-                          </div>
+                    </a>
+                </div>
+                <!-- /col -->
+                <!-- col -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <!-- link-card -->
+                    <a href="http://depilacionlasercopiapo.cl/" target="_blank">
+                        <div class="card-deck h-100">
+                            <div class="card">
+                                <img src="assets/img/webs/web-depilacion.png" class="card-img-top"
+                                    alt="Landing promoción Vitabella">
+                                <div class="card-body">
+                                    <h5 class="card-title">Depilación Soprano Ice</h5>
+                                    <p class="card-text">Landing page para campaña, Soprano Ice.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card">
-                          <img src="assets/img/webs/web-salame.png" class="card-img-top" alt="Consulta Odontológica Antonio Salamé">
-                          <div class="card-body">
-                            <h5 class="card-title"></h5>
-                            <p class="card-text">Antonio Salamé Odontólogo.</p>
-                          </div>
+                    </a>
+                </div>
+                <!-- /col -->
+                <!-- col -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <!-- link-card -->
+                    <a href="https://antoniosalame.cl/" target="_blank">
+                        <div class="card-deck h-100">
+                            <div class="card ">
+                                <img src="assets/img/webs/web-salame.png" class="card-img-top"
+                                    alt="Consulta Odontológica Antonio Salamé">
+                                <div class="card-body">
+                                    <h5 class="card-title">Antonio Salamé Ortodoncia</h5>
+                                    <p class="card-text">Antonio Salamé Odontólogo.</p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                      <div class="card-deck">
-                        <div class="card">
-                          <img src="assets/img/webs/web-patricia-flores.png" class="card-img-top" alt="Centro de contactología especializada Patricia Flores">
-                          <div class="card-body">
-                            <h5 class="card-title">Contactología Especializada Patricia Flores </h5>
-                            <p class="card-text">Sitio del centro oftalmológico</p>
-                          </div>
+                    </a>
+                </div>
+                <!-- /col -->
+                <!-- col -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <!-- link-card -->
+                    <a href="https://cvpf.cl/" target="_blank">
+                        <div class="card-deck h-100">
+                            <div class="card">
+                                <img src="assets/img/webs/web-patricia-flores.png" class="card-img-top"
+                                    alt="Centro de contactología especializada Patricia Flores">
+                                <div class="card-body">
+                                    <h5 class="card-title">Contactología Especializada Patricia Flores </h5>
+                                    <p class="card-text">Sitio del centro oftalmológico</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card">
-                          <img src="assets/img/webs/web-tengoendometriosis.png" class="card-img-top" alt="Sitio web-tengoendometriosis">
-                          <div class="card-body">
-                            <h5 class="card-title">Tengo Endometriosis</h5>
-                            <p class="card-text">Sitio especializado en Endometriosis, Doctor Escarella</p>
-                          </div>
+                    </a>
+                </div>
+                <!-- /col -->
+                <!-- col -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <!-- link-card -->
+                    <a href="https://tengoendometriosis.cl/" target="_blank">
+                        <div class="card-deck h-100">
+                            <div class="card">
+                                <img src="assets/img/webs/web-tengoendometriosis.png" class="card-img-top"
+                                    alt="Sitio web-tengoendometriosis">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tengo Endometriosis</h5>
+                                    <p class="card-text">Sitio especializado en Endometriosis, Doctor Escarella</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card">
-                          <img src="assets/img/webs/web-hepatomed.png" class="card-img-top" alt="Sitio Hepatomed">
-                          <div class="card-body">
-                            <h5 class="card-title">Hepatomed</h5>
-                            <p class="card-text">Sitio que ofrece examen de fibroscan, para detección de problemas del hígado.</p>
-                          </div>
+                    </a>
+                </div>
+                <!-- /col -->
+                <!-- col -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <!-- link-card -->
+                    <a href="https://tengoendometriosis.cl/" target="_blank">
+                        <div class="card-deck h-100">
+                            <div class="card">
+                                <img src="assets/img/webs/web-ricomida.png" class="card-img-top" alt="Sitio Ricomida">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ricomida</h5>
+                                    <p class="card-text">Proyecto Ricomida.</p>
+                                </div>
+                            </div>
                         </div>
-                      </div>
+                    </a>
+                </div>
+                <!-- /col -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+        <!-- container collapse -->
+        <div class="container p3">
+            <div class="row">
+                <div class="col-12">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0 text-center">
+                                    <button class="btn" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                        ¿Quieres ver más?
+                                        ¡Hazme Click!
+                                    </button>
+                                </h5>
+                            </div>
+    
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#accordion">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                        <!-- link-card -->
+                                        <a href="http://hepatomed.cl/" target="_blank">
+                                            <div class="card-deck h-100">
+                                                <div class="card">
+                                                    <img src="assets/img/webs/web-hepatomed.png" class="card-img-top" alt="Sitio Hepatomed">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Hepatomed</h5>
+                                                        <p class="card-text">Centro médico, prevención con enfermedades del hígado.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                        <!-- link-card -->
+                                        <a href="https://tengoendometriosis.cl/" target="_blank">
+                                            <div class="card-deck h-100">
+                                                <div class="card">
+                                                    <img src="assets/img/webs/web-meetcofee.png" class="card-img-top" alt="Sitio Meetcoffe">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Meetcoffe</h5>
+                                                        <p class="card-text">Proyecto Meetcoffe.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                        <!-- link-card -->
+                                        <a href="https://fbaldassare.github.io/Iguana/" target="_blank">
+                                            <div class="card-deck h-100">
+                                                <div class="card">
+                                                    <img src="assets/img/webs/web-iguana.png" class="card-img-top" alt="Sitio Iguana">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Iguana</h5>
+                                                        <p class="card-text">Proyecto Iguana.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                        <!-- link-card -->
+                                        <a href="https://fbaldassare.github.io/Suricata/" target="_blank">
+                                            <div class="card-deck h-100">
+                                                <div class="card">
+                                                    <img src="assets/img/webs/web-suricata.png" class="card-img-top" alt="Sitio Suricata">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Suricata</h5>
+                                                        <p class="card-text">Proyecto Suricata.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                        <!-- link-card -->
+                                        <a href="https://fbaldassare.github.io/Cuppon/" target="_blank">
+                                            <div class="card-deck h-100">
+                                                <div class="card">
+                                                    <img src="assets/img/webs/web-cuppon.png" class="card-img-top" alt="Sitio Cuppon">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Cuppon</h5>
+                                                        <p class="card-text">Proyecto Cuppon.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Modal -->
     </section>
     <!-- /portafolio -->
 
@@ -414,12 +562,22 @@
     <!-- /footer -->
     <!-- scripts -->
     <!-- tooltips -->
+    <!-- /scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/989db3c333.js" crossorigin="anonymous"></script>
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
-        })
+        })        
     </script>
-    <!-- /scripts -->
+   
+    <!-- Spyscroll -->
+    <script>
+            $('body').scrollspy({target:'#navbarNav'})
+    </script>
 </body>
 
 </html>
