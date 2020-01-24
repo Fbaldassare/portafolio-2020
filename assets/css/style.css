@@ -36,6 +36,10 @@ table{
         -moz-text-decoration-color:;
 }
 
+nav{
+    border-bottom: 3px solid #FFC600!important;
+}
+
 /* header */
 
 header{
@@ -149,9 +153,7 @@ header a:hover{
 .carousel-indicators li.active{
     background-color: #FFC600!important;
 }
-.medium-l{
-    width: 40%;
-}
+
 a:hover{
     color: initial;
     text-decoration: none!important;
