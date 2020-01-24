@@ -59,12 +59,12 @@ header h1{
 }
 
 header p{
-    font-size: 16px;
+    font-size: 14px;
     border: #000;    
 }
 
 header ul{
-    font-size: 16px;
+    font-size: 14px;
     color: #FFC600);
     /* text-align: right; */
     list-style: none;
@@ -235,7 +235,7 @@ footer i.fab{
         color: #FFC600;
     }
     header p{
-        font-size: 10px;
+        font-size: 14px;
     }
     header ul li{
         font-weight: 14px;
