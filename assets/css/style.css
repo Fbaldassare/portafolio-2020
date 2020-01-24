@@ -242,6 +242,8 @@ footer i.fab{
         background-image: url('../img/img-header.jpg');
         background-position: center right;
         color: #FFC600;
+    }
+    header p{
         font-size: 14px;
     }
 }
