@@ -267,4 +267,11 @@ footer i.fab{
         margin-top: 56px;
         color: #FFC600;
     }
+    header p{
+        font-size: 14px;
+    }
+    header ul li{
+        font-weight: 14px;
+    }
+}
  }
