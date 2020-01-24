@@ -249,6 +249,12 @@ footer i.fab{
         background-position: center top;
         color: #FFC600;
     }
+    header p{
+        font-size: 14px;
+    }
+    header ul li{
+        font-weight: 14px;
+    }
 }
 
 @media (min-width: 992px) { 
